@@ -1,0 +1,168 @@
+body {
+	color: #777777;
+	margin: 0 auto;
+	background-image: url("images/seigaiha.png");
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+footer {
+	text-align: center;
+	background-color: #666666;
+	height: 80px;
+	margin-top: 80px;
+	clear: both;
+	text-align: center;
+	padding: 20px 0;
+	border-style: solid;
+	border-width: 15px 0 0 0;
+	border-color: #4aaaa5;
+	color: #A9A7A0;
+}
+
+form {
+	margin-bottom: 20px;
+}
+
+.navbar {
+	background-color: white;
+
+}
+
+.navbar-brand {
+	background-color: #4aaaa5;
+	height: 102px;
+}
+
+.navbar-brand h2 {
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	padding: 0 15px;
+}
+
+#navbarWrapper {
+	width: 75%;
+}
+
+#contentWrapper{
+	width: 75%;
+}
+
+.navbar-nav {
+	padding-top: 25px;
+}
+
+.navbar-nav a {
+	color: #777777;
+}
+
+.nav li a:focus, .nav li a:hover{
+	color: #4aaaa5;
+	background-color: white;
+} 
+
+#article {
+	background-color: white;
+}
+
+#article h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	color: #4aaaa5;
+}
+
+#portrait {
+	width: 50%;
+	float: left;
+	margin: 0 15px 10px 0;
+}
+
+#aside ul li {
+	display: inline;
+ 	margin: 5px;
+}
+
+#aside img {
+	width: 50px;
+}
+
+#aside {
+	text-align: center;
+	background-color: white;
+	float: right;
+	padding: 10px;
+}
+
+#aside h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	font-size: 1.5em;
+	display: block;
+	color: #4aaaa5;
+}
+
+#lineStyle {
+	border-width: 0 1px;
+	border-style: solid;
+	border-color: #EFEFEF;
+
+}
+
+.portfolioWrapper {
+	position: relative;
+}
+
+.portfolioItem {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	margin: 15px 0;
+}
+
+.overlay {
+	width: 100%;
+	background-color: #4aaaa5;
+	color: white;
+	padding: 20px 0;
+	text-align: center;
+	position: absolute;
+	bottom: 30px;
+	font-size: 16px;
+}
+
+@media (max-width: 995px) {
+	#aside {
+		width: 100%
+	}
+
+	#article {
+		padding-top: 5px;
+	}
+}
+
+@media (max-width: 768px) {
+	.navbar-brand {
+		width: 100%
+	}
+
+	.navbar-nav {
+		display: inline;
+		text-align: center;
+	}
+
+	.navbar-nav a {
+		display: inline;
+		width: 33%;
+		text-align: center;
+
+	}
+
+	.navbar-nav li {
+		width: 33%;
+		display: inline-block;
+	}
+
+	#lineStyle {
+		border-width: 0px;
+	}
+}
